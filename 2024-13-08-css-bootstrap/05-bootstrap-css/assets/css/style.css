@@ -1,0 +1,12 @@
+.my-button-desing 
+{
+    color: white;
+    background-color: green;
+    font-size: 26px;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+.btn-warning
+{
+    color: rgb(215, 215, 133);
+}

@@ -1,0 +1,18 @@
+body{
+    background-image: url("istockphoto-1044292966-612x612.jpg");
+    background-color: aquamarine;
+}
+h1, h2, fieldset{
+    text-align: center;
+}
+p, ul{
+    font-family: fantasy;
+}
+
+
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: red;
+  }
+  

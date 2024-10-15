@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center; /* מרכז את ה-container אופקית */
+    max-width: 800px; /* מגדיר רוחב מקסימלי ל-container */
+    margin: 0 auto; /* מרכז את ה-container בתוך הדף */
+  
+  }
+  
+  .container p {
+    border: 2px solid;
+    padding: 20px;
+    width: 300px; /* מגדיר רוחב לכל פסקה */
+    height: 150px; /* מגדיר גובה לכל פסקה */
+   margin-left: 15px;
+  }
+  
+  .container p:nth-child(1) {
+    border-color: red;
+    color: blue;
+  }
+  
+  .container p:nth-child(2) {
+    border-color: green;
+    color: orange;
+  }
+  
+  .container p:nth-child(3) {
+    border-color: rgb(85, 85, 139);
+    color: purple;
+  }

@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    color: brown;
+}
+.welcome-text, #copyrights{
+    text-align: center;
+}
+
+.left
+{
+    text-align: left;
+}
+   
+
+
+
+input{
+   
+background-color: yellow;
+}
+
+
+body{
+    direction: rtl;
+    background-image: url("images.jpeg");
+}
+img{
+
+   justify-content: center ;  
+   width: 120px;
+   height: 120px;
+
+ 
+ }
+table{
+    justify-content: right;
+}
+

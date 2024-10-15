@@ -1,0 +1,70 @@
+
+
+h1{
+    color: green;
+    background-color: yellow;
+}
+
+p{
+    color: red;
+    border: 1px dotted blue;
+}
+
+.cool-design {
+    color: blue;
+    background-color: red; 
+}
+
+.cool-design-big{
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgb(0, 58, 248);
+}
+
+.cool-design-small{
+    font-size: x-small;
+}
+#last-paragraph{
+    font-size: x-small;
+    text-decoration: underline;
+}
+input[placeholder]{
+    background-color: yellow;
+}
+input[placeholder="first name"]{
+    border: 2px dashed;
+}
+a{
+    color: rgb(219, 253, 22);
+}
+
+a:visited{
+    color: red;
+}
+a:hover{
+    color: green;
+    font:x-large;
+}
+p::first-letter{
+    font-size: x-large;
+    color: cyan;
+}
+p::first-line{
+ background-color: blueviolet;
+}
+p.cool-design{
+    text-decoration: underline;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+p a{
+    color: black;
+}
+
+p > a {
+    border: 3px dashed gray;
+}

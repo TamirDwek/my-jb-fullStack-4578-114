@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-color: rgb(173, 201, 226);
+    font-size: x-large;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 15px; /* Adjust the margin value to control the spacing */
+  }
+
+ #img-home{
+    width: 300px;
+    height: 200px;
+    margin-top: 80px;
+  }
+.table-container
+{
+  margin: 0 auto;
+}
+img{
+  width: 250px;
+  height: 150px;
+}
+
+#Cp{
+  margin-top: 100%;
+}
+

@@ -1,0 +1,12 @@
+body{
+    background-image: url("Unknown.jpeg");
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    font: bold;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}

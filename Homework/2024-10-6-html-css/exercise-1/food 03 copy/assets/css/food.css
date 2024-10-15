@@ -1,0 +1,20 @@
+h1{
+    color: rgb(21, 88, 50);
+    /* background-image: url("paper.gif");
+    background-color: #cccccc; */
+   }
+
+   body{
+        background-image: url("Variety-fruits-vegetables.jpg.webp");
+   background-color: darkgreen;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font: bold;
+font-style: italic;
+
+   }
+   h1, h2, h3, h4, h5, h6, p, ol, ul, table, fieldset{background-color: aliceblue;
+}
+h1, h2, h3, h4, h5, h6, ol, ul, table, fieldset, #first{
+    text-align: center;
+}
+

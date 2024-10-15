@@ -1,0 +1,52 @@
+@font-face{
+    font-family: Bartleen ;
+    src:  url("/assets/fonts/BartleenSANS.otf");
+}
+
+.styled-title {
+    font-family: Bartleen ;
+    background: linear-gradient(to right, #ff6600, #ffcc00, pink, red,blue,green,black); /* דרוג צבעים */
+    font-size: xx-large;
+    border: 2px solid #ccc; /* מסגרת סביב הכותרת */
+    border-radius: 20px; /* פינות עגולות */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* הצללה */
+    padding: 40px 10px; /* רווח פנימי */
+    text-align: center; /* מרכז את הטקסט */
+  }
+  
+  .styled-title::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .styled-title::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px 20px;
+    color: #000;
+    z-index: 1;
+  }
+
+  .styled-title {
+    animation: rotation 5s infinite linear; /* אנימציה של סיבוב */
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

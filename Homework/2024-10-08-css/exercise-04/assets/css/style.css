@@ -1,0 +1,32 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    /* grid-template-rows: 1; */
+}
+.container{
+    display: grid;
+    height: 100%;
+    /* grid-template-columns: 1; */
+    grid-template-rows: 2fr 1fr 6fr 1fr;
+
+}
+
+#cats-plus-form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#cats-plus-form > * {
+    height: 100%;
+}
+#form{
+    display: grid;
+    grid-template-columns:1fr 3fr ;
+    grid-template-rows: 4 ;
+}

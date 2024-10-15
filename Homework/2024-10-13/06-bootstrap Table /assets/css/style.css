@@ -1,0 +1,23 @@
+html, body
+{
+padding: 0;
+margin: 0;
+}
+
+
+
+img {
+    border-radius: 50%;
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+  }
+tr{
+    text-align: center;
+
+  }
+  td{ 
+    text-align: center;
+    vertical-align: middle;
+}
+
+ 
